@@ -1,0 +1,50 @@
+body{
+    font-family: "segoe ui emoji";
+}
+#mediaContainer{
+    background-color: beige;
+    background-image: url('../dummy.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    margin: auto;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#centerText{
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(140, 170, 167);
+    
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#footer{
+    background-color: rgb(96, 196, 188);
+    margin: auto;
+}
+
+#page{
+    width: 80%;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 0px;
+    padding-bottom: 30px;
+}
+

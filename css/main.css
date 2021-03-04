@@ -1,0 +1,62 @@
+body{
+    font-family: "segoe ui emoji";
+}
+#mediaContainer{
+    background-color: beige;
+    background-image: url('../dummy.jpg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    margin: auto;
+    height: 200px;
+    margin-top: 30px;
+    border: 2px solid red;
+    border-radius: 10px;
+}
+
+#centerText{
+    grid-area: intro;
+    margin: auto;
+    width: 90%;
+    margin-top: 40px;
+    text-align: center;
+    color: rgb(140, 170, 167);
+    
+}
+
+.container{
+    margin: auto;
+    width: 70%;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+#footer{
+    background-color: rgb(96, 196, 188);
+    margin: auto;
+}
+
+#buttonsC{
+    grid-area: comment;
+}
+
+#page{
+    width: 80%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 450px auto;
+    grid-template-areas: "pic intro"
+                         "comment comment";
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#carouselExample{
+    grid-area: pic;
+}
+
