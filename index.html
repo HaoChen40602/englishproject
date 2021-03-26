@@ -161,10 +161,9 @@
         
         <div id="buttonsC" style="padding: 20px; padding-left: 20%; padding-right: 20%">
             <div>
-                <p style="text-align: left; color: gray; font-size: 1.3em">"Forgive Yourself for Being Different。"</p><br>
-                <p style="text-align: right; color: gray; font-size: 1.3em">"I especially like McMurphy since he is so self-less。"</p><br>
+                <p style="text-align: left; color: gray; font-size: 1.3em">"Forgive Yourself for Being Different."</p><br>
+                <p style="text-align: right; color: gray; font-size: 1.3em">"I especially like McMurphy since he is so self-less."</p><br>
                 <p style="text-align: center; color: gray; font-size: 1.4em">"Be yourself. Do what you think is right. There is no need to care what other people think."</p><br>
-            
             </div>
             
         </div>
@@ -176,8 +175,9 @@
                     <hr>
                 </div>
               <div id="postArea">
-                    <div class='comment'><p>A great Book! I enjoy reading it!<p></div><br><hr>
-
+                <div class='comment'>A great Book! I enjoy reading it!</div>
+                  <br>
+                  <hr>
               </div>
                 <div class="form-inline">
                    <div class="form-group mx-sm-3 mb-2" id="commentForm">
@@ -266,7 +266,7 @@ function post(){
     document.getElementById("txtarea").value = "";
     let temp = document.getElementById("postArea").innerHTML;
     
-    temp += "<div class='comment'><p>" + post + "<p></div><br><hr>";
+    temp += "<div class='comment'>" + post + "</div><br><hr>";
     console.log(temp);
     document.getElementById("postArea").innerHTML = temp;
     
